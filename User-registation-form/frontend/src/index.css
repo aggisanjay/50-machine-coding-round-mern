@@ -1,0 +1,134 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #6366f1, #9333ea);
+  min-height: 100vh;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* APP CONTAINER */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 380px;
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* HEADER */
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* TABS */
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.tab-btn {
+  flex: 1;
+  border: none;
+  padding: 6px;
+  border-radius: 999px;
+  cursor: pointer;
+  background: #e5e7eb;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.tab-btn:hover {
+  background: #d1d5db;
+}
+
+.tab-btn.active {
+  background: #6366f1;
+  color: white;
+  font-weight: 600;
+}
+
+.logout {
+  background: #ef4444 !important;
+  color: white !important;
+}
+
+/* INPUTS */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+/* BUTTONS */
+
+.btn {
+  background: #6366f1;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background: #4338ca;
+}
+
+/* PROFILE */
+
+.profile-box {
+  text-align: center;
+  background: #f3f4f6;
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.profile-box p {
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+/* ERROR */
+
+.error {
+  text-align: center;
+  color: #dc2626;
+  font-size: 14px;
+  margin-top: 6px;
+}
