@@ -8,3 +8,9 @@ Each project is built to practice real interview tasks – clean UI, working bac
 ### 1️⃣ Todo List App
 
 ### 2️⃣ User Registration & Login App
+
+### 3️⃣ Counter App
+
+### 4️⃣ Fetch Users
+
+### 5️⃣ Simple Calculator
