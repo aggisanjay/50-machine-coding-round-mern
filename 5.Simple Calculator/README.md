@@ -1,16 +1,66 @@
-# React + Vite
+## 🧮 React Expression Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern calculator built with React that displays full expressions while calculating (e.g. 1 × 2) and shows results on evaluation. The UI mimics a real calculator layout with a clean, responsive design and dark theme.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real calculator 4×5 button layout
 
-## React Compiler
+Displays entire expressions (e.g. 1 + 2, 5 × 6)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Supports:
 
-## Expanding the ESLint configuration
+Addition +
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Subtraction -
+
+Multiplication ×
+
+Division ÷
+
+Decimal input support
+
+Input validation (prevents double operators, invalid decimals)
+
+Error handling (division by zero)
+
+Clean gradient background + dark calculator UI
+
+Zero external styling libraries
+
+## 🛠 Tech Stack
+
+React
+
+JavaScript
+
+Inline CSS (no frameworks or dependencies)
+
+# 🚀 Installation & Run
+
+# Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/react-expression-calculator.git
+
+# Go into the project directory
+
+cd react-expression-calculator
+
+# Install dependencies
+
+npm install
+
+# Start local server
+
+npm start
+
+
+Open in browser:
+
+http://localhost:5173
+
+
+## Screenshot
+
+<img width="522" height="559" alt="image" src="https://github.com/user-attachments/assets/2a907da0-a2cb-4730-b407-39931d755234" />
+
