@@ -1,0 +1,221 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #1f2937;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  background: white;
+  width: 360px;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.bank-logo {
+  text-align: center;
+}
+
+.bank-logo h1 {
+  margin: 1rem 0 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-card button:hover {
+  background: #1d4ed8;
+}
+
+.dashboard {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 1.6rem;
+}
+
+header button {
+  padding: 0.5rem 1rem;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: #dc2626;
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+}
+
+.balance-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.balance-amount {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.balance-amount.negative {
+  color: #fecaca;
+}
+
+.balance-date {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.transaction-form {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.transaction-form input,
+.transaction-form select {
+  padding: 0.65rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.transaction-form button {
+  grid-column: span 2;
+  padding: 0.75rem;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.transaction-form button:hover {
+  background: #059669;
+}
+
+.transaction-table {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.transaction-table h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.credit {
+  color: #10b981;
+  font-weight: 600;
+}
+
+.debit {
+  color: #ef4444;
+  font-weight: 600;
+}
+.type-badge {
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.type-badge.credit {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.type-badge.debit {
+  background: #fee2e2;
+  color: #991b1b;
+}
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #6b7280;
+}
